@@ -9,7 +9,8 @@ from tkinter import *
 root = Tk()
 root.geometry("655x333")
 def getvals():
-    pass
+    print(uservalue.get())
+    print(passvalue.get())
 
 user = Label(root, text ="username")
 passward= Label(root,text="passward")
@@ -29,6 +30,7 @@ userentry.grid(row=0,column=1)
 passentry.grid(row=1,column=1)
                  
 Button(text="Submit", command=getvals).grid()
+
 
 root.mainloop()
 
