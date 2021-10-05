@@ -25,7 +25,7 @@ def ask():
     if value=="yes":
         msg=":) glad to hear it"
     else:
-        msg="is there something i can do to make you fell better?"    
+        msg="is there something i can do to make you feel better?"    
     msgb.showinfo("check",msg)
 
 def retry():
