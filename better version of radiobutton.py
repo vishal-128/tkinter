@@ -25,7 +25,7 @@ radio = Radiobutton(root, text="upma",padx=0,variable=var, value=3).grid(row=5,c
 radio = Radiobutton(root, text="bada",padx=0,variable=var, value=4).grid(row=6,column=0,sticky='w')
 radio = Radiobutton(root, text="aloo chop",padx=0,variable=var, value=5).grid(row=7,column=0,sticky='w')
 
-Button(root,text="order",command=Order).grid(row=8,column=0,pady=10)
+eButton(root,text="order",command=Order).grid(row=8,column=0,pady=10)
 
 
 root.mainloop()
