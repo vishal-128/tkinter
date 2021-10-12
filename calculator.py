@@ -87,12 +87,12 @@ b.pack(side=LEFT)
 b.bind("<Button-1>",click)
 
 f = Frame(root,bg="gray",padx=10)
-b = Button(f,text="=",padx=8,pady=5,font="lucida 25 bold")
+b = Button(f,text="=",padx=6,pady=5,font="lucida 25 bold")
 b.pack(side=LEFT)
 b.bind("<Button-1>",click)
 
 f.pack()
-b = Button(f,text="0",padx=10,pady=5,font="lucida 25 bold")
+b = Button(f,text="0",padx=12,pady=5,font="lucida 25 bold")
 b.pack(side=LEFT)
 b.bind("<Button-1>",click)
 
